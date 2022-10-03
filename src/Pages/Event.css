@@ -1,0 +1,14 @@
+.maineventstyle{
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 3rem;
+  border: 1px solid red;
+}
+
+.subeventstyle{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

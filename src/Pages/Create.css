@@ -1,0 +1,88 @@
+.maincreatestyle {
+   box-sizing: border-box;
+   display: flex;
+   /* justify-content: space-around;
+   align-items: center; */
+   padding: 3rem 6rem;
+   font-family: Helvetica;
+   width: 100vw;
+   height: 100vh;
+}
+
+.neweventtxt {
+
+   width: 100%;
+   color: #240D57;
+}
+
+.specialtxt {
+   font-size: 2.4rem;
+   font-weight: 700;
+   padding: 10px;
+   /* background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%); */
+   background: linear-gradient(90deg, #30146d 24.2%, #E87BF8 120.46%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-fill-color: transparent;
+}
+
+.inputcls {
+   font-size: 1rem;
+   font-weight: 600;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.inputlabetxtctn {
+   width: 100%;
+   padding: 10px;
+   font-size: 1rem;
+   font-weight: 600;
+
+   /* border: 1px solid green; */
+}
+
+.inputclslabel {
+   border-radius: 6px;
+   color: #240D57;
+   outline: none;
+   border: 0px;
+   background-color: #F2F2F2;
+   width: 100%;
+   padding: 10px;
+   margin-top: 6px;
+}
+
+.inputclslabel:hover {
+   background-color: #EDE5FF;
+}
+
+.iconsstyle {
+   color: #E87BF8;
+}
+
+.nextbtnctn {
+   padding: 8px;
+   text-align: right;
+   width: 100%;
+}
+
+.nextbtn {
+   font-weight: 600;
+   font-size: 1.2rem;
+   color: #E87BF8;
+   border: 1px solid #E87BF8;
+   background-color: white;
+   width: 20%;
+   padding: 8px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.nextbtn:hover {
+   background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+   color: white;
+}
